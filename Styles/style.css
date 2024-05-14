@@ -87,16 +87,44 @@ table {
     width: 100%;
     text-align: center;
 }
+@media only screen and (max-width:750px){
+    h1 {
+        font-size: 15vw;
+        line-height: 0;
+    }
+    
+    h2 {
+        font-size: 5vw;
+    }
+    
+    p {
+        font-size: 5vw;
+    }
+}
+@media only screen and (max-width:1000px){
+    h1 {
+        font-size: 2.5vw;
+        line-height: 0;
+    }
+    
+    h2 {
+        font-size: 1.5vw;
+    }
+    
+    p {
+        font-size: 1.25vw;
+    }
+}
 
 h1 {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     line-height: 0;
 }
 
 h2 {
-    font-size: 1vw;
+    font-size: 1.5vw;
 }
 
 p {
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
